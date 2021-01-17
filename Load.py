@@ -1,0 +1,70 @@
+import pygame
+
+# This file loads all the neccessary images for everything (Tiles, Shop items, Masks..etc)
+
+grassLeft = pygame.image.load("tiles/grassLeft.png")
+grassRight = pygame.image.load("tiles/grassRight.png")
+grassMiddle = pygame.image.load("tiles/grassMiddle.png")
+rightArrow = pygame.image.load("tiles/RightArrow.png")
+exitSign = pygame.image.load("tiles/ExitSign.png")
+bridge = pygame.image.load("tiles/Bridge.png")
+gate = pygame.image.load("tiles/Gate.png")
+gateUp = pygame.image.load("tiles/GateUp.png")
+torch = pygame.image.load("tiles/Torch.png")
+powerUpBlock = pygame.image.load("tiles/PowerUpBlock.png")
+ladder = pygame.image.load("tiles/Ladder.png")
+ladderEnd = pygame.image.load("tiles/LadderEnd.png")
+stone = pygame.image.load("tiles/Stone.png")
+pressE = pygame.image.load("tiles/pressE.png")
+level1Sign = pygame.image.load("tiles/level1Sign.png")
+level2Sign = pygame.image.load("tiles/level2Sign.png")
+level3Sign = pygame.image.load("tiles/level3Sign.png")
+level4Sign = pygame.image.load("tiles/level4Sign.png")
+howToPlaySign = pygame.image.load("tiles/HowToPlaySign.png")
+pressSpaceSign = pygame.image.load("tiles/pressSpaceSign.png")
+climbSign = pygame.image.load("tiles/climbSign.png")
+water = pygame.image.load("tiles/water.png")
+spike0 = pygame.image.load("tiles/spike.png")
+spike = pygame.transform.scale(spike0, (70,70)) # Scales image down to 70 pxls
+spikeWall = pygame.transform.rotate(spike, 90)
+gateSign = pygame.image.load("tiles/GateSign.png")
+arrowsSign = pygame.image.load("tiles/ArrowsSign.png")
+enterSign = pygame.image.load("tiles/EnterSign.png")
+collectCoinsSign = pygame.image.load("tiles/CollectCoinsSign.png")
+toBuySign = pygame.image.load("tiles/ToBuySign.png")
+pressHSign = pygame.image.load("tiles/PressHSign.png")
+goToHubSign = pygame.image.load("tiles/GoToHubSign.png")
+shopSign = pygame.image.load("tiles/ShopSign.png")
+pressBSign = pygame.image.load("tiles/PressB.png")
+doNotSign = pygame.image.load("tiles/doNotSign.png")
+touchSign = pygame.image.load("tiles/touchSign.png")
+heart0 = pygame.image.load("tiles/Heart.png")
+heart = pygame.transform.scale(heart0, (50, 50)) # Scales image down to 50 pxls
+coin0 = pygame.image.load("coins/coin1.png")
+coin = pygame.transform.scale(coin0, (50,50)) # Scales image down to 50 pxls
+boots0 = pygame.image.load("tiles/Boots.png")
+boots = pygame.transform.scale(boots0, (70, 70)) # Scales image down to 70 pxls
+bootsEquip = pygame.transform.scale(boots0, (30, 30)) # Scales image down to 30 pxls
+boots.set_colorkey((255,255,255)) # Makes background transparent
+bootsEquip.set_colorkey((255,255,255)) # Makes background transparent
+congratsSign = pygame.image.load("tiles/CongratsSign.png")
+nadimMask0 = pygame.image.load("tiles/NadimMask.png")
+nadimMask = pygame.transform.scale(nadimMask0, (30,30)) # Scales image down to 30 pxls
+nadim0 = pygame.image.load("tiles/Nadim.png")
+nadim = pygame.transform.scale(nadim0, (70, 84)) # Scales image down to 70x84 pxls
+samarMask0 = pygame.image.load("tiles/SamarMask.png")
+samarMask = pygame.transform.scale(samarMask0, (30,30)) # Scales image down to 30 pxls
+samar0 = pygame.image.load("tiles/Samar.png")
+samar = pygame.transform.scale(samar0, (70, 84))
+omarMask0 = pygame.image.load("tiles/OmarMask.png")
+omarMask = pygame.transform.scale(omarMask0, (30,30))
+omar0 = pygame.image.load("tiles/Omar.png")
+omar = pygame.transform.scale(omar0, (70,84))
+yusufMask0 = pygame.image.load("tiles/YusufMask.png")
+yusufMask = pygame.transform.scale(yusufMask0, (30,30))
+yusuf0 = pygame.image.load("tiles/Yusuf.png")
+yusuf = pygame.transform.scale(yusuf0, (70,84))
+monsterR0 = pygame.image.load("monster/R.png")
+monsterR = pygame.transform.scale(monsterR0, (50, 50))
+flyMonsR0 = pygame.image.load("monster/FR1.png")
+flyMonsR = pygame.transform.scale(flyMonsR0, (50,50))
