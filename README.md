@@ -1,12 +1,12 @@
 # Project Description:
 - Project is called "Coinlecter"
-- This project is a game where it has 4 different levels, a hub, a how to play level, and a shop where you can buy a lot of different items, such as, health, double jump, invincibility power up, and different types of masks. You can collect coins by completing the different levels. Once you finish all 4 levels, you win the game. And if your HP drops to 0, you loose the game and you have to start from the beginning.
+- This project is a game. It has 4 different levels, a hub, a how to play level, and a shop where you can buy a lot of different items, such as, health, double jump, invincibility power up, and different types of masks. You can collect coins by completing the different levels. Once you finish all 4 levels, you win the game. And if your HP drops to 0, you loose the game and you have to start from the beginning.
 
 # How to run the project:
-- Just download all the files/images/sounds, then run the "main.py" file
+- Download all the files/images/sounds, then run the "main.py" file
 	
 # How to install and needed libraries:
-- Only library needed is Pygame, which can be downloaded by following this...
+- Only external library needed to run the project is Pygame. You can download Pygame by following this:
 	- Windows: https://qwewy.gitbooks.io/pygame-module-manual/installation/windows.html
 	- Mac: https://qwewy.gitbooks.io/pygame-module-manual/installation/os-x.html
 
